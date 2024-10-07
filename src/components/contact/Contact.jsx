@@ -32,7 +32,7 @@ const Contact = () => {
         html: `<p>${message}</p>`,
       });
 
-      console.log("Email sent successfully:", response);
+      //console.log("Email sent successfully:", response);
       alert("Message sent successfully!");
     } catch (error) {
       console.error("Error sending email:", error);
